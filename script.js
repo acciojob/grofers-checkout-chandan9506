@@ -14,7 +14,8 @@ const getSum = () => {
     }
     
 	let newRow = document.createElement("tr");
-    newRow.innerHTML=`
+    newRow.id="ans";
+	newRow.innerHTML=`
         <td>Total Price = ${sum}</td>
         `;
     table.append(newRow);
